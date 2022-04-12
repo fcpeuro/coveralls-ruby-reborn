@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   gem.metadata['changelog_uri'] = 'https://github.com/tagliala/coveralls-ruby-reborn/blob/main/CHANGELOG.md'
   gem.metadata['source_code_uri'] = 'https://github.com/tagliala/coveralls-ruby-reborn'
 
-  gem.required_ruby_version = '>= 2.5'
+  gem.required_ruby_version = '>= 2.3'
 
   gem.add_dependency 'simplecov', '>= 0.18.1', '< 0.22.0'
   gem.add_dependency 'term-ansicolor', '~> 1.6'
